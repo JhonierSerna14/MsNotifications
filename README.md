@@ -60,7 +60,7 @@ Antes de comenzar, asegúrate de tener instalado:
 
 ### 1. Clonar el repositorio
 ```bash
-git clone https://github.com/tu-usuario/MsNotificaciones.git
+git clone https://github.com/JhonierSerna14/MsNotifications.git
 cd MsNotificaciones
 ```
 
@@ -189,27 +189,6 @@ MsNotificaciones/
 ├── appsettings.json              # Configuración de la aplicación
 ├── appsettings.Development.json   # Configuración de desarrollo
 └── README.md                     # Documentación del proyecto
-```
-
-## 🔧 Desarrollo
-
-### Ejecutar tests
-```bash
-dotnet test
-```
-
-### Compilar para producción
-```bash
-dotnet publish -c Release -o ./publish
-```
-
-### Docker (Opcional)
-```bash
-# Construir imagen
-docker build -t msnotificaciones .
-
-# Ejecutar contenedor
-docker run -p 8080:80 msnotificaciones
 ```
 
 ## 🐛 Troubleshooting
