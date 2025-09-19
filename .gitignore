@@ -1,0 +1,27 @@
+# Archivos de build
+bin/
+obj/
+*.exe
+*.pdb
+
+# Archivos de configuración sensible
+.env
+
+# Archivos de VS/VSCode
+.vs/
+.vscode/
+*.user
+*.suo
+*.userprefs
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Archivos temporales
+*.tmp
+*.temp
